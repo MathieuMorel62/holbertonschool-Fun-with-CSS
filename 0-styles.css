@@ -1,0 +1,48 @@
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  width: 20%;
+  background-color: rgb(250, 245, 245);
+  border: 3px solid rgb(172, 171, 171);
+  border-radius: 20px;
+  margin-left: 1.8rem;
+  padding-top: 1.2rem;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.i-html {
+  height: 40rem;
+  width: 100%;
+  background-image: url("assets/0-sprite.png");
+  background-size: 23em;
+  background-repeat: no-repeat;
+  background-position: -2%;
+}
+
+.i-css {
+  height: 40rem;
+  width: 100%;
+  background-image: url("assets/0-sprite.png");
+  background-size: 23em;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.i-js {
+  height: 40rem;
+  width: 100%;
+  background-image: url("assets/0-sprite.png");
+  background-size: 23em;
+  background-repeat: no-repeat;
+  background-position: 103%;
+}
