@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.menu-open {
+  display: none;
+}
+
+.menu-open-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #333;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.25s ease;
+  background-color: #d8003b;
+}
+
+.menu-open-button:hover {
+  transform: scale(1.1);
+}
+
+.menu-line {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  display: block;
+  position: absolute;
+  transition: transform 0.25s ease;
+}
+
+.menu-line-1 {
+  top: 35px;
+}
+
+.menu-line-2 {
+  top: 45px;
+}
+
+.menu-line-3 {
+  top: 55px;
+}
+
+/* Transformation en X quand le menu est ouvert */
+#menu-open:checked + .menu-open-button .menu-line-1 {
+  transform: translateY(10px) rotate(45deg);
+}
+
+#menu-open:checked + .menu-open-button .menu-line-2 {
+  opacity: 0;
+}
+
+#menu-open:checked + .menu-open-button .menu-line-3 {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.menu-item {
+  display: none;
+}
+
+#menu-open:checked ~ .menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #d8003b;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 30px;
+  border: 2px solid transparent;
+}
+
+#menu-open:checked ~ .menu-item:hover {
+  background-color: #FFFFFF;
+  color: #d8003b;
+  border: 2px solid #d8003b;
+}
