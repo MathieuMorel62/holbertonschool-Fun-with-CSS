@@ -1,5 +1,8 @@
 # **Fun with CSS**
 
+![fun with css](https://github.com/MathieuMorel62/holbertonschool-Fun-with-CSS/assets/113856302/1df7f330-a315-4720-a2a6-822e2353d4f0)
+
+
 ## Description
 "Fun with CSS" is a web programming project focused on creative and advanced usage of **CSS**. This project allows developers to delve into innovative layout techniques, using only **HTML** and **CSS**, with no JavaScript. The aim is to experiment with **CSS** to create interesting layouts and animations, thereby strengthening understanding and mastery of **CSS**.
 
