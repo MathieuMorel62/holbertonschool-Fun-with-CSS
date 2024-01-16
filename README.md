@@ -1,4 +1,4 @@
-# **Fun with CSS**
+# <p align="center">Fun with CSS</p>
 
 ![fun with css](https://github.com/MathieuMorel62/holbertonschool-Fun-with-CSS/assets/113856302/1df7f330-a315-4720-a2a6-822e2353d4f0)
 
